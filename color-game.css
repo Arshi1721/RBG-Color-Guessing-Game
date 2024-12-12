@@ -1,0 +1,96 @@
+table{
+    margin-left:auto;
+    margin-right:auto;
+    border-spacing:15px;
+    
+   
+}
+td{
+    width:125px;
+    height:110px;
+    border-radius: 15px;
+    transition: background 0.4s;
+
+}
+body{
+    background-color:#232323;
+    text-align: center;
+    margin:0px 0px 0px 0px;
+    
+  
+    
+}
+.hide{
+   
+    background-color:#232323;
+}
+
+#bar2{
+    background-color:white;
+   margin-bottom: 30px;
+   color: rgb(3, 147, 167);
+   font-weight: 700;
+   font-family: 'Lato', sans-serif;
+}
+#bar1{
+    background-color: rgb(3, 147, 167);
+    color: floralwhite;
+    font-family: 'Lato', sans-serif;
+}
+
+h3{
+    margin-top: 0px;
+    padding-top:10px;
+    margin-bottom: 0px;
+}
+h2{
+margin-bottom: 0px;
+padding-bottom: 10px;
+margin-top: 0px;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+    
+}
+#ncolor{
+    margin-right: 50px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+#easy{
+    margin-left: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 0px;
+    
+}
+#hard{
+   padding-left: 5px;
+   padding-right: 5px;
+   margin-left: 0px;
+   background-color: rgb(3, 147, 167) ;
+   color: white;
+}
+#result{
+    display: inline-block;
+    width: 100px;
+}
+
+#easy:hover{
+    background-color: rgb(3, 147, 167);
+    color: white;
+}
+#hard:hover{
+    background-color: rgb(3, 147, 167);
+    color: white;
+}
+#ncolor:hover{
+    background-color: rgb(3, 147, 167);
+    color: white;
+    background-color: rgb(255,255,255);
+}
